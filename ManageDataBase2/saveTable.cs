@@ -26,6 +26,7 @@ namespace ManageDataBase2
         public string sql = null;
         private void btnCreateTable_Click(object sender, EventArgs e) 
         {
+            //
             string tblName = txtDbName.Text;
             ConnectionString = "Integrated Security=SSPI;" +
             "Initial Catalog=" + DbName + ";" +
